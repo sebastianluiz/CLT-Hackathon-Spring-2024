@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=""stylesheet" href="{{url_for('static', filename='css/main.css')}}">
-    <title>wtf</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <title>honeybear cafe</title>
     {% block head %}
     {% endblock %}
 </head>
-<h3>hello! bro</h3>
 <body>
-    {% block body %}
-    {% endblock %}
+    <header>
+        <div class="container">
+            <h1>honeybear cafe.</h1>
+                <nav>
+                    <ul>
+                        <li><a href="/aboutme/">about us</a></li>
+                        <li><a href="/order">order</a></li>
+                        <li><a href="/shop">shop</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
 
-    <a href = "">Click it please</a>
+    <main>
+        <div id="container3D">
+            </main>
+
+
+    <script type="module" src="client/main.js"></script>
 </body>
 </html>
